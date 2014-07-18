@@ -806,6 +806,7 @@ var ImgCache = {
 		return Helpers.EntryGetURL(ImgCache.attributes.dirEntry);
 	};
 
+    ImgCache.EntryGetURL = Helpers.EntryGetURL;
 
     /****************************************************************************/
 
